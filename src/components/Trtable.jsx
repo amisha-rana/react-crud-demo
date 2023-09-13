@@ -7,7 +7,7 @@ const Trtable = ({ employee, deleteEmployee, employeeIndex }) => {
       <td>{employee.name}</td>
       <td>{employee.age}</td>
       <td>
-        <img src={employee.avatar} alt="" height={"50px"} width={"50px"} />
+        <img src={employee.avatar} alt="" height={"100px"} width={"100px"} />
       </td>
       <td>{employee.city}</td>
 
